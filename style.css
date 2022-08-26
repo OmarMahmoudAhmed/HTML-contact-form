@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    top: 30vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    width: 200px;
+    height: fit-content;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(133, 133, 133);
+
+    transition: 3s;
+    transition-property: border-color;
+
+}
+
+.container:hover {
+    border-color: rgba(220, 20, 60, 0.493);
+    transition: 3s;
+}
+
+label {
+    position: relative;
+    top: 10px;
+
+    color: rgb(133, 133, 133);
+
+    transition: 1s;
+}
+
+label:hover {
+    color: crimson;
+    transition: 1s;
+}
+
+.container input {
+    margin: 20px;
+}
+button {
+    margin-bottom: 20px;
+}
